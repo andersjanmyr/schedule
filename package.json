@@ -1,0 +1,18 @@
+{
+  "author": "Anders Janmyr <anders@janmyr.com> (http://anders.janmyr.com)",
+  "name": "schedule",
+  "description": "A jQuery schedule.",
+  "version": "0.0.1",
+  "repository": {
+    "url": ""
+  },
+  "main": "lib/schedule.js",
+  "scripts": {
+    "test": "mocha test/*"
+  },
+  "engines": {
+    "node": "~0.6.14"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
