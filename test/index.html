@@ -5,16 +5,19 @@
   <link rel="stylesheet" href="mocha.css" />
   <script src="../lib/jquery-1.7.2.js"></script>
   <script src="lib/mocha.js"></script>
+  <script src="lib/chai.js"></script>
   <script>mocha.setup({ui: 'bdd', ignoreLeaks: true})</script>
   <script src="../src/schedule.js"></script>
   <script src="schedule-test.js"></script>
   <script>
-    $(function(){
+    $(function() {
+      chai.should();
       mocha.run();
     });
   </script>
 </head>
 <body>
   <div id="mocha"></div>
+  <table id='schedule'></table>
 </body>
 </html>
