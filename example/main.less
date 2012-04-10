@@ -1,5 +1,44 @@
-thead {
+table {
+  border: 2px solid black;
+}
+
+thead, tfoot {
     background-color: blue;
     color: white;
     font: sans-serif large bold;
 }
+
+td {
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+td > div {
+  float: left;
+  margin: 2px 8px;
+}
+
+.title {
+  font-weight: bold;
+}
+.speaker {
+  font-style: italic;
+  clear: both;
+}
+
+.tags {
+  clear: both;
+  margin: 0;
+  padding: 0;
+
+  li {
+    float: left;
+    margin: 2px;
+    padding: 2px 4px;
+    background: lightgray;
+    border-radius: 5px;
+    font-size: 10px;
+  }
+
+}
+
